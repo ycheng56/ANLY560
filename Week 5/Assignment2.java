@@ -28,12 +28,15 @@ public class Assignment2 {
 
 		switch (G) {
 			case 'A':
-				System.out.println("A: Fantastic job!");
+				System.out.println("A: Fantastic job!");break;
 			case 'B':
-				System.out.println("B: Good!");				
+				System.out.println("B: Good!");break;		
 			case 'C':
-				System.out.println("C: Please try more next time!");
-			break;
+				System.out.println("C: Please try more next time!");break;
+			case 'F':
+				System.out.println("F: Unfortunately you failed!");break;
+	        default :
+	        	System.out.println("Invalid grade");
 		}
 
 
